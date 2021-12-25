@@ -2,6 +2,7 @@
   "name": "aframe-360-video-gallery",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kshavkatg.github.io/aframe-360-video-gallery/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
