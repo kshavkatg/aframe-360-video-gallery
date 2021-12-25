@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import LoadingView from './LoadingView'
-import StartView from './StartView'
 import AFrameScene from './AFrameScene'
 
 const getScene = () => document.getElementsByTagName('a-scene')[0]
@@ -50,9 +49,6 @@ export const Scene = () => {
         <LoadingView />
       }
       <AFrameScene />
-      {isLoaded && isMbile && isAndroid &&
-        <StartView />
-      }
     </>
   )
 }
