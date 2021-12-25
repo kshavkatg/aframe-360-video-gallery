@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/aframe-360-video-gallery/static/css/main.073c9b0a.css",
-    "main.js": "/aframe-360-video-gallery/static/js/main.976abbea.js",
-    "static/js/787.4c89fce3.chunk.js": "/aframe-360-video-gallery/static/js/787.4c89fce3.chunk.js",
-    "static/media/logo.svg": "/aframe-360-video-gallery/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/aframe-360-video-gallery/static/css/main.e51bcf25.css",
+    "main.js": "/aframe-360-video-gallery/static/js/main.b3802e70.js",
     "index.html": "/aframe-360-video-gallery/index.html",
-    "main.073c9b0a.css.map": "/aframe-360-video-gallery/static/css/main.073c9b0a.css.map",
-    "main.976abbea.js.map": "/aframe-360-video-gallery/static/js/main.976abbea.js.map",
-    "787.4c89fce3.chunk.js.map": "/aframe-360-video-gallery/static/js/787.4c89fce3.chunk.js.map"
+    "main.e51bcf25.css.map": "/aframe-360-video-gallery/static/css/main.e51bcf25.css.map",
+    "main.b3802e70.js.map": "/aframe-360-video-gallery/static/js/main.b3802e70.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.976abbea.js"
+    "static/css/main.e51bcf25.css",
+    "static/js/main.b3802e70.js"
   ]
 }
