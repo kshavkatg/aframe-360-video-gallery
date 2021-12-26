@@ -5,6 +5,7 @@ export default function AFrameScene() {
 
   return (
     <a-scene
+    vr-mode-ui="enabled: true;"
     loading-screen="enabled: false"
     device-orientation-permission-ui="enabled: true">
 
