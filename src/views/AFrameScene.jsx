@@ -4,7 +4,22 @@ import 'aframe'
 export default function AFrameScene() {
 
   return (
-    <a-scene>
+    <a-scene
+    loading-screen="enabled: false"
+    device-orientation-permission-ui="enabled: true">
+
+      <a-camera 
+        id="camera"
+        look-controls="enabled: true; mouseEnabled: true; touchEnabled: true; magicWindowTrackingEnabled: true;"
+        wasd-controls-enabled="false">
+
+        <a-entity cursor="fuse: false; fuseTimeout: 500;"
+            raycaster="objects: .collidable;"
+            position="0 0 -1"
+            geometry="primitive: ring; radiusInner: 0.01; radiusOuter: 0.02"
+            material="color: yellow; shader: flat"></a-entity>
+        
+      </a-camera>
       
       <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
       <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
